@@ -3,19 +3,19 @@
     <div>
       <img src="../../static/image/carInsurance.jpg" class="style-img1"/>
     </div>
-    <div class="div2" v-on:click="carhome1">
+    <div class="div2" @click="carhome1">
       <img src="../../static/image/car01.png" class="style-img2"/>
       <p class="style-p">车险帮介绍</p>
     </div>
-    <div class="div2" v-on:click="carhome2">
+    <div class="div2" @click="carhome2">
       <img src="../../static/image/car0202.jpg" class="style-img2"/>
       <p class="style-p">车主活动</p>
     </div>
-    <div class="div2" v-on:click="carhome3">
+    <div class="div2" @click="carhome3">
       <img src="../../static/image/car0303.png" class="style-img2"/>
       <p class="style-p">小险种</p>
     </div>
-    <div class="div2" v-on:click="carhome4">
+    <div class="div2" @click="carhome4">
       <img src="../../static/image/car0402.png" class="style-img2"/>
       <p class="style-p">保险小贴士</p>
     </div>

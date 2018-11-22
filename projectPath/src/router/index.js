@@ -11,7 +11,7 @@ import Person from '../components/person.vue'
 import Carlnsuranceindex from '../components/CarInsuranceIndex.vue'
 import CarHome from '../viewTest/car-home.vue'
 import CarTips from  '../viewTest/car-tips.vue'
-
+import Click from '../viewTest/click-vue.vue'
 Vue.use(Router)
 export default new Router({
 
@@ -63,7 +63,15 @@ export default new Router({
       path: '/cartips',
       name:'保险小贴士',
       component:CarTips,
+    },
+    {
+      path:'/click',
+      name:'事件修饰符',
+      component: Click
     }
+
+
+
 
 
 
